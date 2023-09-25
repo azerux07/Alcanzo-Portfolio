@@ -39,7 +39,7 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+    <section id="profile" class="hidden">
       <div class="section_pic-3.png">
         <img src="./assets/ghx valo.png" alt="Profile picture" />
       </div>
@@ -73,8 +73,14 @@
           </div>
         </div>
       </div>
+      <img
+        src="./assets/scroll.png"
+        alt="Arrow icon"
+        class="arrow1"
+        onclick="location.href='./#about'"
+      />
     </section>
-      <section id="about">
+      <section id="about" class="hidden">
       <p class="section__text__p1">Get to Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
@@ -111,11 +117,22 @@
           <div class="text-container">
             <p>
               Hello! I am John Cleo Alcanzo an aspiring programmer who is currently studying 
-              BS Information System in Technological University of the Philippines - Manila (TUPM)
+              BS Information System in Technological University of the Philippines - Manila (TUPM).
+              Throughout my academic journey, I've developed a strong passion for tackling complex 
+              challenges, optimizing operational processes, and pioneering innovative solutions. 
+              I'm fully committed to staying on the forefront of this ever-evolving field, 
+              and I'm enthusiastic about sharing my experiences and insights as I continue 
+              navigating the dynamic world of information systems. Join me on this exciting journey!
             </p>
           </div>
         </div>
       </div>
+      <img
+        src="./assets/scroll up.png"
+        alt="Arrow icon"
+        class="icon arrow-up"
+        onclick="location.href='./#profile'"
+      />
       <img
         src="./assets/scroll.png"
         alt="Arrow icon"
@@ -123,7 +140,7 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+    <section id="experience" class="hidden">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -272,13 +289,19 @@
         </div>
       </div>
       <img
+        src="./assets/scroll up.png"
+        alt="Arrow icon"
+        class="icon arrow-up"
+        onclick="location.href='./#about'"
+      />
+      <img
         src="./assets/scroll.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#projects'"
       />
     </section>
-     <section id="projects">
+     <section id="projects" class="hidden">
       <p class="section__text__p1">Browse My</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -340,12 +363,59 @@
         </div>
       </div>
       <img
+        src="./assets/scroll up.png"
+        alt="Arrow icon"
+        class="icon arrow-up"
+        onclick="location.href='./#experience'"
+      />
+      <img
         src="./assets/scroll.png"
         alt="Arrow icon"
         class="icon arrow"
         onclick="location.href='./#contact'"
       />
     </section>
+     <section id="contact" class="hidden">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">cleo.alcanzo12@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+      <img
+        src="./assets/scroll up.png"
+        alt="Arrow icon"
+        class="icon arrow-up1"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Cleo Alcanzo. All Rights Reserved.</p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

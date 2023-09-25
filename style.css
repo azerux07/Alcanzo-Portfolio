@@ -8,7 +8,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color:rgb(250, 237, 221)
+  background-color: rgb(250, 237, 221);
+  color: black;
 }
 
 html {
@@ -186,7 +187,6 @@ img {
 .section__text {
   align-self: center;
   text-align: center;
-  flex-wrap: wrap;
 }
 
 .section__text_p {
@@ -207,6 +207,11 @@ img {
   text-align: center;
 }
 
+.text-container{
+  font-size: 20px;
+  text-align: justify;
+  float: center;
+}
 #socials-container {
   display: flex;
   justify-content: center;
@@ -427,12 +432,107 @@ article .icon {
 }
 
 .btn-container1 , .btn-container2, .btn-container3{
-  display:flex;
-  margin-left: 36%;
+  display:absolute;
+  float: center;
 }
 
 .project-title3{
   margin: 1rem;
   color: black;
   padding-top:20px;
+}
+
+/* Contact Section */
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+}
+
+.email-icon {
+  height: 2.5rem;
+}
+
+/* Footer */
+
+footer {
+  height: 26vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+/*Arrows*/
+
+.arrow1{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+  cursor: pointer;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-up{
+  position: absolute;
+  right: -5rem;
+  bottom: 5.5rem;
+  cursor: pointer;
+  height: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-up1{
+  position: absolute;
+  right: -5rem;
+  cursor: pointer;
+  height: 2rem;
+
+}
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translate(-100%);
+  transition: all 2s;
+}
+
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translate(0);
 }
