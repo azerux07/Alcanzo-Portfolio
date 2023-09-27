@@ -416,14 +416,16 @@ article .icon {
   transform: scale(1.5);
 }
 
-.project-title {
+.project-title, .project-title2, .project-title3 {
   margin: 1rem;
   color: black;
 }
 .project-title2 {
-  margin: 1rem;
-  color: black;
   padding-top:50px;
+}
+
+.project-title3{
+  padding-top:20px;
 }
 
 .project-btn {
@@ -436,11 +438,7 @@ article .icon {
   float: center;
 }
 
-.project-title3{
-  margin: 1rem;
-  color: black;
-  padding-top:20px;
-}
+
 
 /* Contact Section */
 #contact {
